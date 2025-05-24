@@ -26,7 +26,7 @@ tqdm
 scikit-learn
 jraph
 ```
-
+The detailed environment configuration can be found in jsp1.yml
 ## Workflow
 
 The process of finding high-scoring Bayesian Network structures consists of three main steps:
