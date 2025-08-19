@@ -1,5 +1,7 @@
 # GFlowOpt: Bayesian Network Structure Optimization Framework
-![Image text}(https://github.com/yy444/GflowOpt/blob/main/modelfig3_00.png)
+
+![Image text](https://github.com/yy444/GflowOpt/blob/main/modelfig3_00.png)
+
 GFlowOpt is a framework for optimizing Bayesian Network (BN) structures using GFlowNet, proxy models and hill climbing. The framework employs a three-step approach: training a GFlowNet model to learn the distribution of BN structures, using this model to generate samples to train a proxy model, and finally applying Hill Climbing optimization to find high-scoring BN structures.
 
 
@@ -126,6 +128,7 @@ python HC.py optimize --gflownet_model_path output/model.npz --proxy_model_path 
 ```
 
 The optimized structures will be stored in the specified output directory.
+
 
 
 
